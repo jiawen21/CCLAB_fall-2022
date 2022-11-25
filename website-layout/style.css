@@ -1,0 +1,20 @@
+P{
+    background-color:darkkhaki;
+   
+}
+
+span{
+border-color:aquamarine
+border-width: 10px;
+border-style: dashed;
+}
+
+div{
+    border-color: blueviolet;
+    border-width: 2px;
+    border-style: solid;
+    width: 600px;
+    padding:40px
+    margin: 100px;
+}
+
