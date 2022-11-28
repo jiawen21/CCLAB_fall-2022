@@ -1,11 +1,41 @@
-p{
-    color: blue
+h1{
+  
+background: #ece9e9;
+height: 70px;
+font-family: fantasy;
+font-size: 30px;
+
+}
+
+#box1{
+   
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 550px;
+    top: 90px;
+}
+
+#box2{
+    color: white;  
+    position: absolute;
+    left: 550px;
+    top: 150px;
+}
+
+#box3{
+    background-color: #ece9e9;
+    width: 300px;
+    font-size: 20px;
     
 }
 
+
+
 #myContainer {
     position: absolute;
-    left: 100px;
-    top: 100px;
-  }
+   left: 550px;
+   top: 200px;
+}
+  
   
