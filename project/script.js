@@ -3,10 +3,10 @@
 let particles = [];
 
 function setup() {
-  createCanvas(1500, 1000);
+  createCanvas(2000, 2000);
   background(0);
 
-  for (let i = 0; i < 350; i++) {
+  for (let i = 0; i < 500; i++) {
     particles[i] = new Particle(random(width), random(-100, 0) );
   }
 }
@@ -21,9 +21,7 @@ function draw() {
     p.display();
   }
 
-
 }
-
 
 
 class Particle {

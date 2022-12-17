@@ -1,12 +1,8 @@
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+    createCanvas(1500, 950);
     background(0);
-
-
   }
   function draw() {
-   
-
 
      if (keyIsPressed && key=="a") {
       stroke(11,107,49);
@@ -52,7 +48,5 @@ function setup() {
          text('BLUE-press mouse and key d', 40, 200)
          text('YELLOW-press mouse and key e', 40, 230)
          pop()
- 
-
   
     }

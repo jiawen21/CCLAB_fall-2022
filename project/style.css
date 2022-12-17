@@ -8,15 +8,16 @@ h1{
 }
 
 body{
-    background-color: (black);
+    background-color: (rgb(0, 0, 0));
 }
 
 #aboutpage{
     position: absolute;
     left: 1000px;
     top: 100px;  
-    font-size: 60px;
+    font-size: 45px;
     color: cornsilk;
+    font-family: monospace;  
 }
 
 #picture{
@@ -24,9 +25,12 @@ body{
     position: absolute;
     left: 30px;
     top: 50px;  
-}   
+}  
 
-#hi{
+
+
+
+#uploadfile{
     size-adjust: 100px;
     position: absolute;
     left: 100px;
@@ -34,11 +38,12 @@ body{
 }
 
 #text{
-    color: white;
+    color: rgb(0, 133, 11);
     font-size: 30px;
     position: absolute;
-    left: 350px;
-    top: 750px;   
+    left: 300px;
+    top: 750px; 
+    font-family: monospace;  
 }
 
 
@@ -50,7 +55,7 @@ body{
     top: 300px; 
     
     overflow: hidden;
-    border: 10px solid green;
+   
     border-radius: 8px;
     box-shadow: -1px 5px 15px black;
 }
@@ -65,8 +70,6 @@ body{
 img{
     width: 100%;
 }
-
-
 
 
 /*Animation activated by keyframes*/
